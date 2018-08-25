@@ -1,6 +1,7 @@
 # ETHBerlin Prizes
 
 ![ETHBerlin logo](https://github.com/ethberlin-hackathon/media-assets/raw/master/ETHBerlin%20logo%20-%20horizontal%20transparent%20-%20small.png)
+
 Check out some of the great prizes we've put together with the help of some of the top projects in the ecosystem!
 
 ## Prize List
