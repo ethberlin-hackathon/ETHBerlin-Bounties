@@ -18,7 +18,7 @@ The hackathon registration is at 15:30 of the 7th. If you have not received a me
 
 ### 2) Form your team
 
-If you don't already have a team, you are welcome to create an issue in this repository. 
+If you don't already have a team, you are welcome to create an issue in the [teambuilding repository](https://github.com/ethberlin-hackathon/ETHBerlin-Teambuilding). 
 
 You can use this issue as a way to get other participants excited about your project or to brainstorm if you haven't yet defined an exact scope.
 
