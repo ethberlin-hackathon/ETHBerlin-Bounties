@@ -16,7 +16,7 @@ Hackers, check out some of the great prizes we've put together with the help of 
 
 While participating at ETHBerlin is essentially as easy as contributing to an open source project, you have to be physically present and register at Factory Görlitzer Park to participate in ETHBerlin. 
 
-The hackathon registration is at 13:30 of the 7th. Hackers registered for the Mitte conference (and have signed up for this one can sign up later at 21:30) . If you have not received a message confirming that your application at ethberlin.com was accepted please reach out to joinus@ethberlin.com.
+The hackathon registration is at 13:30 on the 7th. Hackers who have signed up for the Mitte conference can register later at 21:30. If you have not received a message confirming that your application at ethberlin.com was accepted please reach out to joinus@ethberlin.com.
 
 ### 2) Form your team
 
