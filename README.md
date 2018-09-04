@@ -2,7 +2,9 @@
 
 ![ETHBerlin logo](https://github.com/ethberlin-hackathon/media-assets/raw/master/ETHBerlin%20logo%20-%20horizontal%20transparent%20-%20small.png)
 
-Check out some of the great prizes we've put together with the help of some of the top projects in the ecosystem!
+Hackers, check out some of the great prizes we've put together with the help of some of the top projects in the ecosystem!
+
+*Sponsors, please double check the information below to 
 
 ## Prize List
 
@@ -22,22 +24,22 @@ If you don't already have a team, you are welcome to create an issue in the [tea
 
 You can use this issue as a way to get other participants excited about your project or to brainstorm if you haven't yet defined an exact scope.
 
-### 3) Check out the prizes available
+### 3) Set up a GitHub repo and check out the prizes available
 
-Work on your project as you like. How you work is up to you; We recommend creating a new GitHub repo for your team. However, remember to only begin working on your project after the hackathon begins!
+We recommend creating a new GitHub repo for your team. **Please ensure that all team members are visible to sponsors so they know who to pay the prizes to :)**
 
-As the hackathon draws closer we will start to announce additional prizes in this repository.
+As the hackathon draws closer we will start to announce additional prizes in this repository, some are already posted above under the `issues` tab.
 
 Wherever you work, remember that your project should include an **Open Source License** of [some form](https://opensource.org/licenses), and should be accessible to everyone after the submission deadline.
 
 ### 4) Start work on the associated Gitcoin bounty
 
-Each prize is set up as a cooperative bounty on Gitcoin, meaning that any number of people can `start work`. 
+Each prize is set up as a **cooperative bounty** on Gitcoin, meaning that any number of people can `start work`. Each hacker should start work on the prizes their team is working towards. Don't worry if you're not immediately sure which prizes are relevant to your team, you can start work on the issues relevant to your team at any time up until judging begins.
 
-After you’ve started work, all of your interaction with the prize team can take place on GitHub and in the associated community channel for longer conversations requiring more specific context about your project.
+After you’ve started work, most of your interaction with the prize teams can take place on GitHub and in the associated community channel for longer conversations requiring more specific context about your project.
 
 ### 5) Submit a pull request 
-When you’re happy with what you’ve built you can submit it by creating a pull request on the issue the Gitcoin bounty is associated with. 
+When you’re happy with what you’ve built you can submit it by creating a pull request for the issue the Gitcoin bounty is associated with. 
 
 If you do not want to apply for any additional prizes, you can simply submit your work to the main prize issue.
 
