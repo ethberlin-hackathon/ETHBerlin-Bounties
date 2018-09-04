@@ -2,7 +2,9 @@
 
 ![ETHBerlin logo](https://github.com/ethberlin-hackathon/media-assets/raw/master/ETHBerlin%20logo%20-%20horizontal%20transparent%20-%20small.png)
 
-Check out some of the great prizes we've put together with the help of some of the top projects in the ecosystem!
+Hackers, check out some of the great prizes we've put together with the help of some of the top projects in the ecosystem!
+
+Sponsors, please double check the information below to make sure you're prepared to answer any questions hackers might have for you :) 
 
 ## Prize List
 
@@ -13,7 +15,6 @@ Check out some of the great prizes we've put together with the help of some of t
 ### 1) Make sure you're eligible to participate!
 
 While participating at ETHBerlin is essentially as easy as contributing to an open source project, you have to be physically present and register at Factory Görlitzer Park to participate in ETHBerlin. If you have not received a message confirming that your application at ethberlin.com was accepted please reach out to joinus@ethberlin.com.
-
 
 ### 2) Before the hackathon
 
@@ -30,7 +31,8 @@ Hacking starts during the event. Teams can form and ideas can evolve before the 
 And please don't forget to sync your Ethereum nodes ahead of the event :)
 
 #### 2.3) Check out the prizes available
-As the hackathon draws closer we will start to announce additional prizes in this repository.
+
+Some of the prizes available have already been published as issues in this repository, take a look and see if any of what's on offer is of interest.
 
 ### 3) At the hackathon
 
@@ -38,19 +40,25 @@ As the hackathon draws closer we will start to announce additional prizes in thi
 
 The hackathon registration is at 13:30 of the 7th. at Factory Görlitzer Park. Hackers registered for the Mitte conference can sign up later at 21:30.
 
-#### 3.2) Start work on the associated Gitcoin bounty
+#### 3.2) Start work on the associated [Gitcoin](https://gitcoin.co) bounty
 
-Each prize is set up as a cooperative bounty on Gitcoin, meaning that any number of people can `start work`. 
+Before starting work, we recommend creating a new GitHub repo for your team to make it easier for sponsors to see everyone involved in your project. **Please ensure that all team members are visible pubicly to sponsors so they know who to pay the prizes to :)**
 
-After you’ve started work, all of your interaction with the prize team can take place on GitHub and in the associated community channel for longer conversations requiring more specific context about your project.
+Each prize is set up as a **cooperative bounty** on Gitcoin, meaning that any number of people can `start work`. Each hacker should start work on the prizes their team is working towards. Don't worry if you're not immediately sure which prizes are relevant to your team, you can start work on the issues relevant to your team at any time up until judging begins.
+
+To start work simply go to the issue you're interested in, simply click on the link to the Gitcoin Issue Details page in the associated GitHub issue and the `start work` button. 
+
+After you’ve started work, most of your interaction with the prize teams can take place on GitHub and in the associated community channel for longer conversations requiring more specific context about your project.
 
 #### 3.3) Buidl
 
-Work on your project as you like. How you work is up to you; We recommend creating a new GitHub repo for your team. However, remember to only begin working on your project after the hackathon begins!
+Work on your project as you like, how you work is up to you! However, remember to only begin working on your project after the hackathon begins!
 
 ### 4) Submit your project
 
 #### 4.1) What to include
+
+When you’re happy with what you’ve built you can submit it by creating a pull request for the issue the Gitcoin bounty is associated with. 
 
 What your submission should have: 
 
@@ -62,11 +70,11 @@ What your submission should have:
 #### 4.2) How to submit
 
 - **Open track bounties** Your project needs to be submitted to **Devpost** and you should create a pull request on the issue the Gitcoin bounty is associated with. , before Sunday at 12pm, and you can submit your project by creating a pull request on the [Open Track Bounty](https://github.com/ethberlin-hackathon/ETHBerlin-Bounties/issues/2) issue.
-- **Sponsered bounties** If you want your project considered for particular bounties (eg. Aragon, Status, The Graph, etc), you can submit your project by creating a pull request on the issue the Gitcoin bounty is associated with.
+- **Sponsored bounties** If you want your project considered for particular bounties (eg. Aragon, Status, The Graph, etc), you can submit your project by creating a pull request on the issue the Gitcoin bounty is associated with.
 - **Community Improvement Prizes** You know the drill, again through the bounty issue ;)
 - **People’s Choice Award** Nothing required, just buidl.
 
-You can apply to multiple prizes simultaneously, if you think your project conforms to eachone's judgding criteria.
+You can apply to multiple prizes simultaneously, if you think your project conforms to each one's judging criteria.
 
 You can open a PR before the submission deadline and continue to work, but all materials must be finalized *before* the end of the hackathon. Any commits to your project submission after the deadline will not be considered.
 
@@ -74,11 +82,11 @@ You can open a PR before the submission deadline and continue to work, but all m
 
 #### 5.1) Congratulate everyone on a job well-done
 
-Whether or not you get a prize, you deserve to be proud of your work. Thanks for participating in the hackathon!
+Whether or not you get a prize, you deserve to be proud of your work. Thanks for buidling!
 
 #### 5.2) Party!
 
-We have in true Berlin spirits parties planned for us all to blow off some steam!
+We have parties planned in true Berlin spirit for us all to blow off some steam!
 
 ## Judges and Scoring
 
