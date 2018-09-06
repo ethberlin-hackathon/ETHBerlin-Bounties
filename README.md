@@ -70,7 +70,7 @@ What your submission should have:
 - **Open track bounties** Your project needs to be submitted to **Devpost** and you should create a pull request on the [Open Track Bounty](https://github.com/ethberlin-hackathon/ETHBerlin-Bounties/issues/2) issue the Gitcoin bounty is associated. Submissions must be in before **Sunday at 12pm** to be eligible!
 - **Sponsored bounties** If you want your project considered for particular bounties (eg. Aragon, Status, The Graph, etc), you can submit your project by creating a pull request on the issue the Gitcoin bounty is associated with and submitting work by clicking `submit work` on the associated Gitcoin page.
 - **Community Improvement Prizes** You know the drill, again through the bounty issue ;)
-- **People’s Choice Award** Nothing required, just buidl.
+- **People’s Choice Award** (aka community prize) 5 projects will be selected by the mentors, and on Sunday morning, the community will vote on their favorite project among the 5.
 
 You can apply to multiple prizes simultaneously, if you think your project conforms to each one's judging criteria.
 
