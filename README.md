@@ -8,7 +8,7 @@ Sponsors, please double check the information below to make sure you're prepared
 
 ## Prize List
 
-> Soon(TM)
+The current prize list can be found [here](https://github.com/ethberlin-hackathon/ETHBerlin-Bounties/issues). Sponsors will be adding to these up until the hackathon begins so check back for new ones!
 
 ## How to win prizes for dummies
 
@@ -40,13 +40,11 @@ Some of the prizes available have already been published as issues in this repos
 
 The hackathon registration is at 13:30 of the 7th. at Factory Görlitzer Park. Hackers registered for the Mitte conference can sign up later at 21:30.
 
-#### 3.2) Start work on the associated [Gitcoin](https://gitcoin.co) bounty
+#### 3.2) Start work on the associated [Gitcoin](https://gitcoin.co/explorer) bounty (check out the issues in this repository for some of the bounties available)
 
 Before starting work, we recommend creating a new GitHub repo for your team to make it easier for sponsors to see everyone involved in your project. **Please ensure that all team members are visible pubicly to sponsors so they know who to pay the prizes to :)**
 
-Each prize is set up as a **cooperative bounty** on Gitcoin, meaning that any number of people can `start work`. Each hacker should start work on the prizes their team is working towards. Don't worry if you're not immediately sure which prizes are relevant to your team, you can start work on the issues relevant to your team at any time up until judging begins.
-
-To start work simply go to the issue you're interested in, simply click on the link to the Gitcoin Issue Details page in the associated GitHub issue and the `start work` button. 
+Each prize is set up as a **cooperative bounty** on Gitcoin. This just means that any number of people can start work using the `start work` button on each issue's associated Gitcoin page. You can find a link to any bounty you're interested in within the GitHub issue itself, or you can check out Gitcoin's issue explorer [here](https://gitcoin.co/explorer). **Each hacker, not just one team member, should `start work` on the prizes their team is working towards in order to be paid out.** Don't worry if you're not immediately sure which prizes are relevant to your team, you can start work on the issues relevant to your team at any time up until judging begins.
 
 After you’ve started work, most of your interaction with the prize teams can take place on GitHub and in the associated community channel for longer conversations requiring more specific context about your project.
 
@@ -69,14 +67,14 @@ What your submission should have:
 
 #### 4.2) How to submit
 
-- **Open track bounties** Your project needs to be submitted to **Devpost** and you should create a pull request on the issue the Gitcoin bounty is associated with. , before Sunday at 12pm, and you can submit your project by creating a pull request on the [Open Track Bounty](https://github.com/ethberlin-hackathon/ETHBerlin-Bounties/issues/2) issue.
-- **Sponsored bounties** If you want your project considered for particular bounties (eg. Aragon, Status, The Graph, etc), you can submit your project by creating a pull request on the issue the Gitcoin bounty is associated with.
+- **Open track bounties** Your project needs to be submitted to **Devpost** and you should create a pull request on the [Open Track Bounty](https://github.com/ethberlin-hackathon/ETHBerlin-Bounties/issues/2) issue the Gitcoin bounty is associated. Submissions must be in before **Sunday at 12pm** to be eligible!
+- **Sponsored bounties** If you want your project considered for particular bounties (eg. Aragon, Status, The Graph, etc), you can submit your project by creating a pull request on the issue the Gitcoin bounty is associated with and submitting work by clicking `submit work` on the associated Gitcoin page.
 - **Community Improvement Prizes** You know the drill, again through the bounty issue ;)
 - **People’s Choice Award** Nothing required, just buidl.
 
 You can apply to multiple prizes simultaneously, if you think your project conforms to each one's judging criteria.
 
-You can open a PR before the submission deadline and continue to work, but all materials must be finalized *before* the end of the hackathon. Any commits to your project submission after the deadline will not be considered.
+You can open a PR before the submission deadline and continue to work, but all materials must be finalized and you must `submit work` on the relevant Gitcoin bounties *before* the end of the hackathon. Any commits to your project submission after the deadline will not be considered.
 
 ### 5) After the hackathon
 
