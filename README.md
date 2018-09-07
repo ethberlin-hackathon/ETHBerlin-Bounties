@@ -34,19 +34,21 @@ And please don't forget to sync your Ethereum nodes ahead of the event :)
 
 The following will provide you with a quick overview of the different prizes that you can win as a hacker at ETHBerlin. There are four different tracks:
 
-**Open Track Bounties**
+**General Prizes - Devpost**
+**Open Track**
 This is the main prize of ETHBerlin. There will be 10 winners. The grand bounty is of approximately 75.000 € and it’s distributed equally. You can calculate it ;)
-
-**Sponsors’ Prizes**
-Some of ETHBerlin’s sponsors have their own price awards. They can each pay out a maximum of 5000 €. These prizes will be funded and distributed via Gitcoin. Note that ETHBerlin has no influence on neither the challenge nor the judging, this is entirely up to the sponsors. You can find all the prize awards [here](https://github.com/ethberlin-hackathon/ETHBerlin-Bounties/issues).
-
-**Community Improvement Bounties**
-These are small prizes endowed with 1000 € each by ETHBerlin. Check them out [here](https://github.com/ethberlin-hackathon/ETHBerlin-Bounties/issues).
 
 **People’s Choice Awards**
 Previous Hackathons have showed that people’s favourite teams were not always among the actual winners. At ETHBerlin, we would like to give those projects a chance by rewarding the people’s favorite team with a community prize of 1000€. The winner will be determined from the top 5 teams through an [Olympia](https://blog.gnosis.pm/announcing-gnosis-olympia-5fb7e16dd259?gi=de34dba69451) prediction market tournament. For details go [here](https://github.com/ethberlin-hackathon/ETHBerlin-Bounties/issues/29).
 
 The mentors will vote initially (not on Olympia) to determine the top 5 projects. The top 5 will then be determined through the Olympia prediction market by all of the community as outlined above.
+
+**Sponsor Prizes & Improvement Awards**
+**Sponsors’ Prizes**
+Some of ETHBerlin’s sponsors have their own price awards. They can each pay out a maximum of 5000 €. These prizes will be funded and distributed via Gitcoin. Note that ETHBerlin has no influence on neither the challenge nor the judging, this is entirely up to the sponsors. You can find all the prize awards [here](https://github.com/ethberlin-hackathon/ETHBerlin-Bounties/issues).
+
+**Community Improvement Awards**
+These are small prizes endowed with 1000 € each by ETHBerlin. Check them out [here](https://github.com/ethberlin-hackathon/ETHBerlin-Bounties/issues).
 
 Note that you can submit your work to multiple prize awards, they are not exclusive! So for example you can submit your work to the open track bounty and a sponsor specific prize, just make sure to submit it everywhere where you want to participate. 
 
