@@ -44,7 +44,9 @@ Some of ETHBerlin’s sponsors have their own price awards. They can each pay ou
 These are small prizes endowed with 1000 € each by ETHBerlin. Check them out [here](https://github.com/ethberlin-hackathon/ETHBerlin-Bounties/issues).
 
 **People’s Choice Awards**
-Previous Hackathons have showed that people’s favourite teams were not always among the actual winners. At ETHBerlin, we would like to give those projects a chance by rewarding the people’s favorite top 5 teams with a community prize of 1000€ each. The winner will be determined through an [Olympia](https://blog.gnosis.pm/announcing-gnosis-olympia-5fb7e16dd259?gi=de34dba69451) prediction market tournament. For details go [here](https://github.com/ethberlin-hackathon/ETHBerlin-Bounties/issues/29).
+Previous Hackathons have showed that people’s favourite teams were not always among the actual winners. At ETHBerlin, we would like to give those projects a chance by rewarding the people’s favorite team with a community prize of 1000€. The winner will be determined from the top 5 teams through an [Olympia](https://blog.gnosis.pm/announcing-gnosis-olympia-5fb7e16dd259?gi=de34dba69451) prediction market tournament. For details go [here](https://github.com/ethberlin-hackathon/ETHBerlin-Bounties/issues/29).
+
+The mentors will vote initially (not on Olympia) to determine the top 5 projects. The top 5 will then be determined through the Olympia prediction market by all of the community as outlined above.
 
 Note that you can submit your work to multiple prize awards, they are not exclusive! So for example you can submit your work to the open track bounty and a sponsor specific prize, just make sure to submit it everywhere where you want to participate. 
 
