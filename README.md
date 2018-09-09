@@ -34,7 +34,7 @@ And please don't forget to sync your Ethereum nodes ahead of the event :)
 
 The following will provide you with a quick overview of the different prizes that you can win as a hacker at ETHBerlin. There are four different tracks:
 
-**General Prizes - Devpost**
+**General Prizes - Devpost https://ethberlin.devpost.com/**
 **Open Track**
 This is the main prize of ETHBerlin. There will be 10 winners. The grand bounty is of approximately 75.000 € and it’s distributed equally. You can calculate it ;)
 
