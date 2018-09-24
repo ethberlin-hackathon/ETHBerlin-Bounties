@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<!--
+		The MIT License (MIT)
+
+		Copyright (c) 2014, 2015, the individual contributors
+
+		Permission is hereby granted, free of charge, to any person obtaining a copy
+		of this software and associated documentation files (the "Software"), to deal
+		in the Software without restriction, including without limitation the rights
+		to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+		copies of the Software, and to permit persons to whom the Software is
+		furnished to do so, subject to the following conditions:
+
+		The above copyright notice and this permission notice shall be included in
+		all copies or substantial portions of the Software.
+
+		THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+		IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+		FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+		AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+		LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+		OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+		THE SOFTWARE.
+		-->
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<title></title>
+		<link rel="stylesheet" href="assets/css/pygment_trac.css">
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<script type="text/javascript" src="remix-api.js"></script>
+        <script type="text/javascript" src="plugin.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	</head>
+	<body>
+		<h3> Solidity Snippet Importer </h4>
+		<h4>Quick Utilities Links</h4>
+				<input type="button" id="safeMath">Import SafeMath</input> <br>
+				<input type="button" id="ownable">Import Ownable</input> <br>
+				<input type="button" id="merkle">Import Merkle Proofs</input> <br>
+				<input type="button" id="string">Import String Utilities</input> <br>
+				<input type="button" id="sig">Import Eleptic Curve Signatures</input> <br>
+		<h4>Import an OpenZeppelin File</h3>
+				<input type="button" id="zepplinImport">Import</input> <br>
+				<select id= "path" > </select>
+				<p> Please note that the drafts and mocks directories of OpenZeppelin are not necessarily finished code.
+					Don't use them if you aren't sure of what you are doing. </p>
+			<div id='compilationdata'></div>
+
+		<br>
+		<h3> Raw Source Quoting </h3>
+		<input type="text" id="gitURL">Link</input> <br>
+		<input type="number" id="codeStart">Start Line </input> <br>
+		<input type="number" id="codeEnd">End Line</input> <br>
+
+		<h4> Quote Some code into your Browser Filesytem</h4>
+		<input type="button" id="quoteToFile">Quote to File</input> <br>
+		<input type ="text" id ="contractName"> New Contract Name </input> <br>
+		<input type="checkbox" id="hasFunctionLine"> Add Function Line </input> <br>
+		<input type = "text" id ="functionName"> Imput Function Line </input> <br>
+		<br>
+
+		<h4> Quote Some code into your Project</h4>
+		<input type="button" id="quoteToProject">Quote to Project</input> <br>
+		<input type = "number" id ="insertionLine"> Line to insert at </input> <br>
+		<br>
+
+		View the readme on <a href="https://github.com/pvienhage/SoliditySnippetPlugin/blob/master/README.md">  github</a>, and if you have any issues please make sure to open them there.
+	</body>
+
+
+	<script src="../vendors/jquery-2.1.0.min.js"></script>
+  <script src="../vendors/underscore-min.js"></script>
+  <script src="../gh3.js"></script>
+
+  <script>
+	timeout = localStorage.getItem("lastTimeSoliditySnippetPlugin") //Very long name to prevent an possiblity of overwriting other Remix local storage
+	var d = new Date();
+	if(timeout < d.getTime() - 3600000){ //604800000 is miliseconds in a week
+    var oz = new Gh3.User("OpenZeppelin")
+			,	repoTitle = $("h1")
+      ,	branchTitle = $("h2")
+			, dirContents = $("ul");
+		output = []
+
+    var ozBlog = new Gh3.Repository("openzeppelin-solidity", oz);
+
+    ozBlog.fetch(function (err, res) {
+      if(err) { throw "outch ..." }
+      repoTitle.html(ozBlog.full_name);
+      ozBlog.fetchBranches(function (err, res) {
+        var master = ozBlog.getBranchByName("master");
+        branchTitle.html(master.name + " (" + master.sha + ") :");
+        master.fetchContents(function (err, res) {
+					var dir = master.getDirByName('contracts');
+					dir.fetchContents(function (err, res) {
+						if(err) { throw "outch ..." }
+						//console.log(dir.getContents());
+						dir.eachContent(function (content) {
+							//console.log(content.name, content.type, content.size);
+
+							 if(content.type === "dir"){
+								 //console.log("Went into " + content.path)
+								 recurse(content, output)
+							 }else{
+								 if(content.path.slice(-4) == ".sol"){
+									 addOption(content.path)
+								 }
+							 }
+						});
+					});
+        });
+      })
+    });
+		function recurse(dir, storage){
+			dir.fetchContents(function (err, res) {
+				if(err) { throw "outch ..." }
+				//console.log(dir.getContents());
+				dir.eachContent(function (content) {
+					//console.log(content.name, content.type, content.size);
+
+					 if(content.type === "dir"){
+						// console.log("Went into " + content.path)
+						 recurse(content, storage)
+					 } else{
+						 if(content.path.slice(-4) == ".sol"){
+							// console.log(content.path)
+							 addOption(content.path)
+						 }
+					 }
+				});
+			});
+		}
+		function addOption(path){
+				var x = document.getElementById("path");
+				newPath = path.slice(10,path.length)
+				//console.log(newPath)
+				var option = document.createElement("option");
+	    	option.innerHTML = newPath;
+				option.value = newPath;
+	    	x.add(option);
+
+				localStorage.setItem("lastTimeSoliditySnippetPlugin", d.getTime())
+				localStorage.setItem("listSoliditySnippetPlugin", document.getElementById("path").innerHTML)
+		}
+
+	}else{
+		document.getElementById("path").innerHTML = localStorage.getItem("listSoliditySnippetPlugin")
+	}
+
+  </script>
+</html>
